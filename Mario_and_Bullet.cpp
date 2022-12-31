@@ -1,23 +1,23 @@
 #include <iostream>
-using namespace std;
 typedef long long ll;
+using namespace std;
 int main()
 {
     ll testcases = 0;
     cin >> testcases;
     while (testcases != 0)
     {
-        ll time;
-        cin >> time;
-        if (time >= 1 && time <= 4)
+        ll X, Y, Z;
+        cin >> X >> Y >> Z;
+        ll min_time = Z - (Y / X);
+        if (min_time > 0)
         {
-            cout << "YES" << endl;
+            cout << min_time << endl;
         }
         else
         {
-            cout << "NO" << endl;
+            cout << 0 << endl;
         }
         testcases--;
     }
-    return 0;
 }

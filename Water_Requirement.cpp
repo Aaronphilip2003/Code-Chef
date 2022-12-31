@@ -1,5 +1,3 @@
-// PROBLEM CODE : https://www.codechef.com/problems/WATERREQ
-// SOLUTION CODE : https://www.codechef.com/viewsolution/63374107
 #include <iostream>
 typedef long long ll;
 using namespace std;

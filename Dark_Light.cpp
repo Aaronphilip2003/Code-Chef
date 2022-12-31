@@ -1,5 +1,3 @@
-// PROBLEM CODE : https://www.codechef.com/problems/DARLIG
-// SOLUTION CODE : https://www.codechef.com/viewsolution/63383986  
 #include <iostream>
 typedef long long ll;
 using namespace std;

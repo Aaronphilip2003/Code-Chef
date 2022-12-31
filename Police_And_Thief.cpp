@@ -1,5 +1,3 @@
-// PROBLEM CODE : https://www.codechef.com/problems/POLTHIEF
-// SOLUTION CODE : https://www.codechef.com/viewsolution/63383045
 #include <iostream>
 using namespace std;
 typedef long long ll;

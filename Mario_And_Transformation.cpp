@@ -1,6 +1,3 @@
-// PROBLEM CODE : https://www.codechef.com/problems/TRANSFORM
-// SUBMISSION CODE : https://www.codechef.com/viewsolution/63155120
-
 #include<iostream>
 using namespace std;
 typedef long long ll;

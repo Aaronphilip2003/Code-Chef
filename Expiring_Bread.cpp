@@ -3,20 +3,19 @@ using namespace std;
 typedef long long ll;
 int main()
 {
-    ll testcases;
+    ll testcases = 0;
     cin >> testcases;
     while (testcases != 0)
     {
-        ll A, B, C, D;
-        cin >> A >> B;
-        cin >> C >> D;
-        if (C >= A && D >= B)
+        ll N, M, K;
+        cin >> N >> M >> K;
+        if (M * K >= N)
         {
-            cout << "POSSIBLE" << endl;
+            cout << "Yes" << endl;
         }
         else
         {
-            cout << "IMPOSSIBLE" << endl;
+            cout << "No" << endl;
         }
         testcases--;
     }
